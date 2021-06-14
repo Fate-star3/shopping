@@ -1,0 +1,119 @@
+/* 注册样式表 */
+.register_hd {
+    height: 80px;
+    border-bottom: 2px solid #b1191a;
+    line-height: 80px;
+}
+.register_bd {
+    border: 1px solid #ccc;
+    margin-top: 25px;
+}
+.reg_hd {
+    height: 45px;
+    line-height: 45px;
+    background-color: #ececec;
+}
+.reg_hd h4 {
+    float: left;
+    color: #333333;
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: normal;
+}
+.reg_hd h5 {
+    float: right;
+    font-size: 14px;
+    color: #333;
+    padding-right: 15px;
+}
+/* .reg_bd ul {
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.reg_bd ul li input {
+   
+} */
+.reg_bd td input {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+.reg_bd table {
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.reg_bd tr td:first-child {
+    text-align: right;
+    width: 90px;
+}
+.reg_bd tr {
+    display: block;
+    margin-top: 20px;
+}
+.reg_bd input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+    padding-top: 2px;
+}
+.reg_bd td a {
+    color: #62b6eb;
+}
+.reg_bd input[type="submit"] {
+    background-color: #c81623;
+    width: 200px;
+    margin-left: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.register_footer {
+    margin-top: 50px;
+    position: relative;
+    height: 120px;
+}
+.register_footer .link ul li {
+    float: left;
+    border-right: 1px solid #ccc;
+   margin-right: 17px; 
+   padding-right: 15px;
+}
+.register_footer .link {
+    margin-left: 117px;
+}
+.register_footer p {
+    position: absolute;
+    top: 25px;
+    left: 240px;
+    text-align: center;
+}
+.safe {
+    width: 240px;
+    text-align: right;
+}
+.reg_bd tr:nth-child(4n) {
+    margin-top: 5px;
+}
+.reg_bd .safe em:first-child {
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    background-color: #de1111;
+    text-align: center;
+
+}
+.reg_bd .safe em:last-child {
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    background-color: #40b83f;
+    text-align: center;
+}
+.reg_bd .safe em:nth-child(2n) {
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    background-color: #f79100;
+    text-align: center;
+}
+

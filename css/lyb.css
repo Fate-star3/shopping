@@ -1,0 +1,89 @@
+.lyb_hd{
+    padding: 30px 0 10px 20px;
+    border-bottom:  2px solid #ccc;
+}
+.lyb_hd h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.lyb_bd .lyb_menu {
+    margin-top: 30px;
+}
+.lyb_bd .lyb_menu th {
+    width: 800px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+.lyb_bd .lyb_menu td {
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.lyb_bd .lyb_content {
+    width: 800px;
+    height: 400px;
+    background-color: #ccc;
+    margin: 20px auto;
+}
+.lyb_bd .lyb_content h4 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;   
+}
+.lyb_bd .lyb_content .lyb_title {
+    margin-left: 30px;
+}
+.lyb_bd .lyb_content .lyb_title label,.lyb_page label,.lyb_name label,.lyb_email label {
+    font-size: 14px;
+}
+.lyb_title input,.lyb_page textarea,.lyb_name input,.lyb_email input {
+    display: block;
+    width: 700px;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.lyb_content .lyb_page {
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.lyb_content .lyb_page textarea {
+    height: 60px;
+    resize: none;
+    /* 防止表单域被拖拽 */
+}
+.lyb_name {
+    height: 50px;
+    margin-left: 30px;
+}
+.lyb_email {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.lyb_footer {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+.lyb_footer button {
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+.lyb_footer button:last-child {
+    background-color: #ccc;
+    color: #666;
+}
+

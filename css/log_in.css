@@ -1,0 +1,197 @@
+/* 登陆样式 */
+.log_hd {
+    height: 80px;
+    line-height: 80px;
+}
+.log_bd {
+    position: relative;
+    height: 487px;
+    background-color:#7e00ff;
+}
+.log_bd img {
+    width: 1200px;
+    height: 486px;
+}
+.log_next:hover .log_own1{
+display: block;
+}
+.log_bd .log_own1 .log_one {
+    height: 65px;
+    line-height: 65px;
+}
+.log_bd .log_own1 .log_one h4 {
+    float: left;
+    color: #808080;
+    font-size: 18px;
+    padding-left: 47px;
+    font-weight: normal;
+}
+.log_bd .log_own1 .log_one h5 {
+    float: right;
+    font-size: 18px;
+    padding-right: 47px;
+}
+.log_own1 ul li:last-child {
+    width: 350px;
+    height: 200px;
+    text-align: center;
+}
+.log_own1 ul li img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.log_bd .log_own,.log_own1 {
+    /* display: none; */
+    position: absolute;
+    top: 60px;
+    right: 115px;
+    width: 380px;
+    height: 360px;
+    background-color: #ffffff;
+}
+.log_own1 {
+    display: none;
+}
+.log_bd .log_own .log_one {
+    height: 65px;
+    line-height: 65px;
+}
+.log_bd .log_own .log_one h4 {
+    float: left;
+    color: #808080;
+    font-size: 18px;
+    padding-left: 47px;
+    font-weight: normal;
+    /* border-right: 1px solid #ccc; */
+}
+.log_bd .shuxian {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 22px;
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
+}
+.log_bd .log_own .log_one h5 {
+    float: right;
+    font-size: 18px;
+    padding-right: 47px;
+}
+.log_bd .log_two {
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    background-color: #fffdee;
+    margin-left:45px ;
+    color: #666666;  
+}
+.log_bd .log_three,.log_four,.log_five,.log_seven {
+    border: 1px solid #3aa2e4;
+    width: 300px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.log_bd .log_three input {
+    width: 260px;
+    height: 33px;
+    font-size: 14px;
+    color: #cfcdcd;
+    padding-left: 50px;
+}
+.log_bd .log_three .pic1 {
+    float: left;
+    width: 36px;
+    height: 33px;
+    background-color: #cfcdcd;
+    text-align: center;
+}
+.log_bd .log_three img {
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+}
+.log_bd .log_four .pic2 {
+    float: left;
+    width: 36px;
+    height: 33px;
+    background-color: #cfcdcd;
+    text-align: center;
+}
+.log_bd .log_four img {
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+}
+.log_bd .log_four input {
+    width: 260px;
+    height: 33px;
+    font-size: 14px;
+    color: #cfcdcd;
+    padding-left: 50px;
+}
+
+.log_bd .log_five {
+  border: 0;
+}
+.log_bd .log_five span {
+    color: #cfcdcd;
+}
+.log_bd .log_five input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.log_bd .log_five a {
+    float: right;
+    color: #333333;
+}
+.log_bd .log_six input {
+    width: 300px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 45px;
+    margin-top: 10px;
+    background-color: #c81623;
+    text-align: center;
+    color: #fff;
+   border: 0;
+}
+.log_bd .log_seven {
+    margin-top: 30px;
+   border: 0;
+}
+.log_bd .log_seven a {
+    float: right;
+    color: #1474af;
+}
+.log_bd .log_seven img {
+    width: 188px;
+    height: 35px;
+}
+/* 注册底部 */
+.log_footer {
+   margin: 20px auto 0;
+    position: relative;
+    width: 1200px;
+    height: 120px;
+    /* padding-left: 100px; */
+}
+.log_footer .link ul li {
+    float: left;
+    border-right: 1px solid #ccc;
+   margin-right: 17px; 
+   padding-right: 15px;
+}
+.log_footer .link {
+    margin-left: 117px;
+}
+.log_footer p {
+    position: absolute;
+    top: 25px;
+    left: 240px;
+    text-align: center;
+}

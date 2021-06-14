@@ -1,0 +1,165 @@
+/* 列表页样式表 */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 189px;
+    border-left: 1px solid #c81523;
+    padding: 4px 0 0 14px;
+}
+.nav_left {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+}
+.nav_left ul li {
+    float: left;
+    height: 100%;
+    padding: 0 30px;
+}
+.nav_left ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+.nav_right {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+}
+.nav_right ul li {
+    float: left;
+    padding: 0 20px;
+}
+.nav_right ul li a {
+    font-size: 14px;
+}
+.nav_last::after {
+    font-family: "iconfont";
+    /* 必须加这个属性 */
+    content: "\e646";
+    padding-left: 5px;
+}
+
+.list_container .con_bd  {
+    margin-top: 25px;
+}
+.list_container .con_bd ul li {
+    float: left;
+    margin-right: 13px;
+    margin-top: 1px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    /* 使鼠标经过时不会抖动，因为只是颜色变换,抖动原因时鼠标经过时多了1px的边框 */
+}
+.list_container .con_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.list_container .con_bd ul li img {
+   width: 100%;
+    height: 60%;
+}
+.list_container .con_bd ul li h4 {
+    padding-left: 15px;
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-bottom: 15px;
+}
+.list_container .con_bd ul li i {
+    font-size: 22px;
+    color: #e60012;
+    padding-left: 14px;
+    padding-top: 20px;
+}
+.list_container .con_bd ul li em {
+    display: inline-block;
+    font-style: 14px;
+    color: #adadad;
+    padding-left: 12px;
+    text-decoration: line-through;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+.list_container .con_bd ul li .box {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.list_container .con_bd ul li .box .box_jd {
+    display: inline-block;
+    width: 130px;
+    height: 12px;
+    margin: 0 15px;
+    border-radius: 12px;
+    border: 1px solid #ed282e;
+    
+}
+.box_jd_son {
+    height: 100%;
+    width: calc(100% - 20px);
+    border-radius: 12px;
+    background-color: #ed282e;
+}
+.list_container .con_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+.qg {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+   background-color: #b1191a;
+   font-size: 20px;
+   color: #fff;
+   margin-top: 13px;
+}
+.page {
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+}
+.page .page_left a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
+.page .page_left a:first-child {
+    width: 83px;
+}
+.page .page_left a:last-child {
+    width: 83px;
+}
+.page .page_left .cueernt {
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+.page .page_right {
+    margin-left: 20px;
+}
+.page .page_right input {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    transition: all 0.3s;
+}
+/* 获取焦点 */
+.page .page_right input:focus {
+    width: 88px;
+    border: 1px solid skyblue;
+}
+.page .page_right button {
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+
+}
+
+
+
+
+
